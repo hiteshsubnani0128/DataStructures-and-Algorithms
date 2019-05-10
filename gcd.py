@@ -1,5 +1,6 @@
 #function to return gcd of a and b
 def gcd(m,n):
+    #Everything divides 0
     if n==0:
         return m 
     i = min(m,n)
@@ -8,5 +9,10 @@ def gcd(m,n):
             return i
         else:
             i -=1
-print(gcd(int(input("Enter number 1")),int(input("Enter number 2"))))
+#Main Program
+print(gcd(int(input("Enter number 1 ")),int(input("Enter number 2 "))))
 
+#Output
+#Enter number 1 14
+#Enter number 2 63
+#7
